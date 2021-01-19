@@ -23,7 +23,7 @@ public class LoginServlet extends HttpServlet {
 		// TODO Auto-generated method stub
 		response.getWriter().append("Served at: ").append(request.getContextPath());
 		
-		RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/views/foodielogin.jsp");
+		RequestDispatcher dispatcher = request.getRequestDispatcher("foodielogin.jsp");
 		dispatcher.forward(request, response);
 	}
 
@@ -44,7 +44,7 @@ public class LoginServlet extends HttpServlet {
             } else {
 //                HttpSession session = request.getSession();
                 //session.setAttribute("user", username);
-                response.sendRedirect("foodielogin.jsp");
+                response.sendRedirect("login");
             }
         } catch (ClassNotFoundException e) {
             e.printStackTrace();

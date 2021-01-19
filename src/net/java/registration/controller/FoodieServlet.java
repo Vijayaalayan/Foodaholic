@@ -36,7 +36,7 @@ public class FoodieServlet extends HttpServlet {
 		// TODO Auto-generated method stub
 		response.getWriter().append("Served at: ").append(request.getContextPath());
 		
-		RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/views/foodieregister.jsp");
+		RequestDispatcher dispatcher = request.getRequestDispatcher("foodieregister.jsp");
 		dispatcher.forward(request, response);
 	}
 
