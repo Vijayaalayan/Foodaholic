@@ -1,0 +1,29 @@
+/*!
+ * Bootstrap Grid v4.5.2 (https://getbootstrap.com/)
+ * Copyright 2011-2020 The Bootstrap Authors
+ * Copyright 2011-2020 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */
+
+html {
+  box-sizing: border-box;
+  -ms-overflow-style: scrollbar;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+@import "functions";
+@import "variables";
+
+@import "../../../../../../workspace/Foodaholic/WebContent/scss/bootstrap/mixins/breakpoints";
+@import "../../../../../../workspace/Foodaholic/WebContent/scss/bootstrap/mixins/grid-framework";
+@import "../../../../../../workspace/Foodaholic/WebContent/scss/bootstrap/mixins/grid";
+
+@import "grid";
+@import "../../../../../../workspace/Foodaholic/WebContent/scss/bootstrap/utilities/display";
+@import "../../../../../../workspace/Foodaholic/WebContent/scss/bootstrap/utilities/flex";
+@import "../../../../../../workspace/Foodaholic/WebContent/scss/bootstrap/utilities/spacing";
